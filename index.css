@@ -1,4 +1,33 @@
 .main{
     display: flex;
-    justify-content: center;
+    justify-content: ;
+    padding: 30px;
+}
+.Americana{
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.main-image{
+    display: flex;
+    justify-content: right;
+    width: 700px;
+    margin-top: 80px;
+}
+.main1{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.main0{
+    display: flex;
+    flex-direction: row;
+}
+.form{
+    align-items: center;
+}
+.account{
+    align-items: center;
+}
+.back{
 }
