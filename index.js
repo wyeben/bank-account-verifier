@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function() {
     fetchBanks();
 
     document.getElementById("verificationForm").addEventListener("submit", function(event) {
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         verifyAccount(accountNumber, bankCode);
     });
-});
+};
 
 function fetchBanks() {
     let url = "https://api.paystack.co/bank";
