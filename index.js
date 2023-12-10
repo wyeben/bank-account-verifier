@@ -26,7 +26,7 @@ function fetchBanks() {
         } else {
             console.error("Error fetching banks:", xhr.status, xhr.statusText);
         }
-        
+
     };
 }
 
@@ -44,6 +44,7 @@ function verifyAccount(accountNumber, bankCode) {
     let url = `https://api.paystack.co/bank/resolve?account_number=${accountNumber}&bank_code=${bankCode}`;
 
     let xhr = new XMLHttpRequest();
+    
     xhr.open("GET", url);
     xhr.setRequestHeader("Authorization", "Bearer sk_test_c20244ee0c718aef3527dbe7c73bab0f024e56e6");
     xhr.send();
