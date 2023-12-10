@@ -26,9 +26,9 @@ function fetchBanks() {
         } else {
             console.error("Error fetching banks:", xhr.status, xhr.statusText);
         }
+        
     };
 }
-
 
 function populateBankOptions(banks) {
     let bankSelect = document.getElementById("bankSelect");
