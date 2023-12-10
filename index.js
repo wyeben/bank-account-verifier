@@ -29,6 +29,7 @@ function fetchBanks() {
     };
 }
 
+
 function populateBankOptions(banks) {
     let bankSelect = document.getElementById("bankSelect");
     banks.forEach(function(bank) {
